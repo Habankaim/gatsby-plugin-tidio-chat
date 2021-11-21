@@ -22,7 +22,7 @@ module.exports = {
       options: {
         tidioKey: 'your-tidio-key',
         enableDuringDevelop: false, // Optional. Disables Tidio chat widget when running Gatsby dev server. Defaults to true.
-        delayInMilliseconds: 6000, // Optional. The time after which Tidio chat widget will first appear.
+        delayInMilliseconds: 6000, // Optional. The time after which Tidio chat widget will first appear. Defaults to 0.
       },
     },
   ],
